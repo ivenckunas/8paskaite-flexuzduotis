@@ -1,0 +1,130 @@
+/*
+font: sans-serif
+background: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+border-bottom: 1px solid rgba(0,0,0,0.1);
+text-shadow:3px 3px 0 rgba(0,0,0,0.1);
+background-color: rgba(255,255,255,0.2);
+ */
+
+body {
+  background: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  padding-top: 150px;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  margin-right: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  color: white;
+  padding-top: 20px;
+  font-size: 1.8em;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+section .container .cat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .container .dog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .container .fish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 240px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.box div {
+  margin: 15px;
+}
+
+.box .button {
+  display: flex;
+  align-items: center;
+}
+
+.cat div div:nth-of-type(5) {
+  font-size: 4em;
+  font-family: garamond;
+}
+.dog div div:nth-of-type(6) {
+  font-size: 4em;
+  font-family: garamond;
+}
+.fish div div:nth-of-type(5) {
+  font-size: 4em;
+  font-family: garamond;
+}
+
+.button {
+  cursor: pointer;
+  position: relative;
+  justify-content: center;
+  background: rgb(230, 230, 50);
+  height: 50px;
+  border-radius: 8px;
+}
+
+.button img {
+  padding-left: 20px;
+  width: 20px;
+}
+
+img.dogbtn {
+  position: relative;
+  padding: 0;
+}
+
+img.dogbtn1 {
+  position: absolute;
+  bottom: 16px;
+  left: 30px;
+}
+
+.button div:last-of-type {
+  margin-left: -10px;
+}
+
+span {
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(65, 65, 65, 0.301);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 20px;
+  }
+  .container {
+    display: block;
+  }
+
+  .container div {
+    margin-bottom: 10px;
+  }
+  body {
+    height: 100%;
+  }
+}
